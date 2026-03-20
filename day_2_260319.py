@@ -31,9 +31,9 @@ def solution(arr, division):
     answer = [i for i in arr if i % division ==0]
 
     if not answer:
-        return [-1]
+        return [-1]     # 리스트가 비어있을 시 [-1] 반환
     
-    answer.sort()
+    answer.sort()       # 오름차순 정리
     return answer
 
 print(solution([5,9,7,10], 5))
@@ -73,7 +73,7 @@ N	answer
 """
 
 def solution(n):
-    return sum(int(i) for i in str(n))
+    return sum(int(i) for i in str(n))  # 각 자릿수 더하기
 
 print(solution("123"))
 print(solution("987"))

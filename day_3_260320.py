@@ -1,4 +1,6 @@
 ## LeetCode >> Explore >> Arrays 101
+
+# Introduction
 """ 1.
 Max Consecutive Ones
 

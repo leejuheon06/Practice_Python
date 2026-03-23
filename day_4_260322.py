@@ -24,7 +24,9 @@ class Solution:
         answer.sort()
         return answer
 
-""" 4.
+
+# Inserting Items Into an Array
+""" 1.
 Duplicate Zeros
 
 Given a fixed-length integer array arr, duplicate each occurrence of zero, shifting the remaining elements to the right.
@@ -54,7 +56,7 @@ class Solution:
                 i += 1           # 복제된 0을 건너뛰기 위해 추가 이동
             i += 1
 
-""" 5.
+""" 2.
 Merge Sorted Array
 
 You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, 

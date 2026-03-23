@@ -1,9 +1,9 @@
 # Git 실전 가이드북
 
 ## Phase 1. 초기 설정 (Setup)
-* 사용자 등록 : 내 이름과 이메일로 커밋 기록을 남깁니다.
-git config --global user.name "leejuheon06"
-git config --global user.email "your-email@example.com"
+사용자 등록 : 내 이름과 이메일로 커밋 기록을 남깁니다.
+* git config --global user.name "leejuheon06"
+* git config --global user.email "your-email@example.com"
 
 ## Phase 2. 브랜치(Branch)
 메인 코드(main)를 망가뜨리지 않고 마음껏 실험하는 기능입니다.

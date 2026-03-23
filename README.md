@@ -9,5 +9,5 @@ Daily practice
 
 # 학습 기록 (Roadmap)
 * **Day 1~3**: Python 기초 문법 및 입출력 실습 & Github Upload 실습
-* **Day 4**: 알고리즘 구현
+* **Day 4**: LeetCode >> Explore >> Arrays 101 알고리즘 구현
 * **Current**: Git Interactive Rebase 및 충돌 해결 숙련도 강화 실습

@@ -23,7 +23,7 @@
 * 장바구니에서 빼기 (Unstage): git restore --staged 파일명add는 했지만 commit은 하기 싫을 때 사용합니다.
 * 커밋 취소하기 (Reset):
     * git reset --soft HEAD~1: 방금 한 커밋만 취소하고, 내가 짠 코드는 그대로 둡니다. (다시 커밋할 때 좋음)
-    * git reset --hard HEAD~1: 방금 한 커밋과 코드 수정을 모두 삭제합니다. (주의해서 사용!)
+    * git reset --hard HEAD~1: 방금 한 커밋과 코드 수정을 모두 삭제합니다. (주의)
 
 ## Phase 5. 과거 수정 (Rebase) & 충돌 (Conflict)
 1) 과거 커밋 내용 고치기
@@ -44,4 +44,4 @@ git push origin main --force      # 5. 서버에 강제 반영
 2) 파일 수정 및 저장(Ctrl + S)
 3) git add .                     모든 파일 담기
 4) git commit -m "Day X: 주제"    기록 남기기
-5) git push origin mainGitHub    저장소로 발송!
+5) git push origin main          GitHub 저장소로 발송

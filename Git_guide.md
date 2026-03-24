@@ -15,6 +15,7 @@
 ## Phase 3. 소스 업데이트 (Fetch vs Pull)
 서버(GitHub)의 내용을 내 컴퓨터로 가져오는 두 가지 방법입니다.
 * git fetch: 서버의 변화를 "확인만" 합니다. 내 코드는 바뀌지 않습니다. (신중파)
+     * git reset --hard origin/main: 내 로컬 상태를 서버(origin/main) 상태로 강제 초기화
 * git pull: 서버 내용을 가져와서 내 코드와 "바로 합칩니다". (속도파)
     * 강력 추천: git pull --rebase origin main (내 작업을 뒤로 밀고 서버 내용을 먼저 깔아줍니다. 히스토리가 훨씬 깨끗해집니다.)
 

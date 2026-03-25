@@ -16,3 +16,5 @@ Daily practice
   > Interactive Rebase를 통한 과거 히스토리 정정 및 충돌 해결 능력
 * **Day 6**: Deleting Items form an Array (LeetCode >> Explore >> Arrays 101)
   > 중복 요소 제거 알고리즘 및 In-place 기법 
+* **Day 7**: Searching for items in an Array (LeetCode >> Explore >> Arrays 101)
+  > 오르막, 내리막 검증 기초와 예외 처리 기법

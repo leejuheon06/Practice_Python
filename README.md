@@ -18,3 +18,5 @@ Daily practice
   > 중복 요소 제거 알고리즘 및 In-place 기법 
 * **Day 7**: Searching for items in an Array (LeetCode >> Explore >> Arrays 101)
   > 오르막, 내리막 검증 기초와 예외 처리 기법
+* **Day 8**: In-Place Operations (LeetCode >> Explore >> Arrays 101)
+  > In-Place 기법과 투 포인터 처리 기법
